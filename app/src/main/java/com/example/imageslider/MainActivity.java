@@ -17,6 +17,7 @@ ActivityMainBinding binding;
         setContentView(R.layout.activity_main);
          binding=ActivityMainBinding.inflate(getLayoutInflater());
          setContentView(binding.getRoot());
+        //Slider Image Show
          binding.carousel.addData(new CarouselItem("https://images.unsplash.com/photo-1559080463-5c7eb3a52de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"));
         binding.carousel.addData(new CarouselItem("https://images.unsplash.com/photo-1526547541286-73a7aaa08f2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"));
         binding.carousel.addData(new CarouselItem("https://images.unsplash.com/photo-1528825994654-33b2e6d5ac5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"));
